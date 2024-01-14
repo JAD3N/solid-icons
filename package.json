@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react-dom": "^18.2.18",
+    "change-case": "^5.4.1",
+    "dom-serializer": "^2.0.0",
+    "domhandler": "^5.0.3",
+    "domutils": "^3.1.0",
+    "glob": "^10.3.10",
+    "htmlparser2": "^9.1.0",
+    "p-queue": "^8.0.1"
+  },
+  "scripts": {
+    "build": "bun src/build/index.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "vite": "^5.0.11",
+    "vite-plugin-solid": "^2.8.0"
+  }
+}
